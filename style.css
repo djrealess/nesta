@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Roboto&display=swap');
+@font-face {
+  font-family: "riverjade";
+  src: url("../fonts/riverjade.ttf") format('truetype');
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #373737;
+}
+a {
+  color: #373737;
+  text-decoration: none;
+}
+a:hover {
+  color: #2f4a9f;
+  text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  color: #2f4a9f;
+}
+iframe {
+  border: 0;
+}
+header {
+  padding: 15px 0 15px 0;
+  background: #FFF;
+}
+.headerno {
+  text-align: right;
+  padding-top: 25px;
+}
+.headerno a {
+  color: #2f4a9f;
+}
+.herobanner {
+  background: #FFF;
+  text-align: center;
+  padding: 25px 0 25px 0;
+}
+.bannerbtn {
+  position: relative;
+  padding: 40px 0 30px 0;
+}
+.bannerbtn h2 {
+  color: #373737;
+  font-size: 24px;
+  display: inline-block;
+	padding: 0 15px 0 15px;
+}
+.bannerbtn a {
+  background: #2f4a9f;
+  margin: 0px 15px 0px 15px;
+  display: inline-block;
+  color: #FFF;
+  padding: 10px 25px 10px 25px;
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+.bannerbtn a:nth-child(3) {
+  background: #392e66;
+}
+.bannerbtn a:hover {
+  background: #0e233c;
+}
+.bannerbtn a:nth-child(3):hover {
+  background: #2f4a9f;
+}
+.ourdiverse {
+  background: url("../images/ourDiverseBanner.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  padding: 460px 0 100px 0;
+}
+.ourdiverse h2 {
+  font-family: "riverjade";
+  color: #FFF;
+  font-size: 115px;
+}
+.ourdiverse h3 {
+  color: #FFF;
+  font-size: 48px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: -35px;
+}
+.topreasons {
+  background-color: #eeeeee;
+  position: relative;
+  padding: 60px 0 60px 0;
+}
+.topreasons h1 {
+  text-transform: uppercase;
+  font-size: 56px;
+  font-weight: 700;
+}
+.topreasons h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin: 20px 0 40px 0;
+}
+.topreasons ul {
+  margin: 0;
+  padding: 0;
+}
+.topreasons li {
+  list-style: none;
+  margin-bottom: 15px;
+  padding-left: 55px;
+  min-height: 55px;
+}
+ul.sublist {
+    margin: 15px 0 0 40px;
+    padding: 0;
+}
+ul.sublist li {
+    list-style: disc;
+    padding: 0 0 8px 0;
+    margin: 0 0 0 0;
+    min-height: auto;
+}
+
+.icon1 {
+  background: url("../images/icon_1.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+.icon2 {
+  background: url("../images/icon_2.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+.icon3 {
+  background: url("../images/icon_3.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+.icon4 {
+  background: url("../images/icon_4.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+.icon5 {
+  background: url("../images/icon_5.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+.icon6 {
+  background: url("../images/icon_6.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+.icon7 {
+  background: url("../images/icon_7.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+.icon8 {
+  background: url("../images/icon_8.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+.icon9 {
+  background: url("../images/icon_9.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+.icon10 {
+  background: url("../images/icon_10.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+.icon11 {
+  background: url("../images/icon_11.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+.rightform {
+  background-color: #FFF;
+  position: relative;
+  padding: 25px;
+}
+.rightform h3 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+.rightform input {
+  background: #f1f1f1;
+  border: none;
+  border-radius: 0;
+  margin-bottom: 30px;
+}
+.rightform button {
+  background: #392e66;
+  border: 0;
+  border-radius: 0;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 18px;
+  margin: 40px auto;
+  display: block;
+  padding: 10px 40px 10px 40px;
+}
+.rightform button:hover {
+  background: #2f4a9f !important;
+}
+.videosection {
+  padding: 60px 0 60px 0;
+}
+.videosection h3 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 26px;
+  margin-bottom: 15px;
+  padding-bottom: 20px;
+}
+.careersec {
+  background: url("../images/iconbanner.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-align: left;
+  padding: 330px 0 40px 0;
+}
+.careersec h2 {
+  font-family: "riverjade";
+  color: #0e233c;
+  font-size: 115px;
+}
+.careersec h3 {
+  color: #FFF;
+  font-size: 48px;
+  font-weight: bold;
+  margin-top: -35px;
+  margin-bottom: 50px;
+}
+.careersec ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.careersec li {
+  display: inline-block;
+  color: #FFF;
+  width: 210px;
+  margin-bottom: 25px;
+}
+.getintuch {
+  background: #FFF;
+  position: relative;
+  padding: 60px 0 60px 0;
+  text-align: center;
+}
+.getintuch h1 {
+  text-transform: uppercase;
+  font-size: 56px;
+  font-weight: 700;
+}
+.getintuchbtn {
+  position: relative;
+  padding: 30px 0 30px 0;
+  text-align: center;
+}
+.getintuch h2 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 26px;
+  margin-bottom: 15px;
+  padding-bottom: 20px;
+}
+.getintuchbtn h2 {
+  color: #373737;
+  font-size: 24px;
+  display: inline-block;
+}
+.getintuchbtn a {
+  background: #2f4a9f;
+  margin: 0px 15px 10px 15px;
+  display: inline-block;
+  color: #FFF;
+  padding: 10px 25px 10px 25px;
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 1px;
+  min-width: 210px;
+}
+.getintuchbtn a:nth-child(2) {
+  background: #392e66;
+}
+.getintuchbtn a:hover {
+  background: #0e233c;
+}
+.getintuchbtn a:nth-child(2):hover {
+  background: #2f4a9f;
+}
+.getintuch ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.getintuch li {
+  display: inline-block;
+  color: #373737;
+  width: 180px;
+  margin-bottom: 25px;
+	font-weight: 700;
+}
+footer {
+  background: #392e66;
+  padding: 60px 0 60px 0;
+	color: #FFF;
+}
+footer h2 {
+  text-align: left;
+  font-weight: 700;
+  font-size: 26px;
+  margin-bottom: 0px;
+  padding: 0 0 10px 7px;
+	color: #FFF;
+}
+footer ul {
+  margin: 0;
+  padding: 0;
+}
+footer li {
+  list-style: none;
+  display: inline-block;
+}
+.ftright {
+  text-align: right;
+  padding: 40px 0 0 0;
+
+}
+.ftright a{color: #FFF;}
+@media screen and (max-width: 768px) {
+  .rightform {
+    background-color: #FFF;
+    position: relative;
+    padding: 5px;
+  }
+}
+@media screen and (max-width: 766px) {
+  header {
+    text-align: center;
+  }
+  .headerno {
+    text-align: center;
+    padding-top: 25px;
+  }
+  .bannerbtn a {
+    margin: 0px 15px 10px 15px;
+    display: block;
+  }
+  .ourdiverse {
+    padding: 150px 0 60px 0;
+  }
+  .ourdiverse h2 {
+    font-size: 60px;
+  }
+  .ourdiverse h3 {
+    font-size: 24px;
+  }
+  .topreasons h1 {
+    font-size: 26px;
+  }
+  .topreasons h2 {
+    font-size: 18px;
+    margin: 15px 0 25px 0;
+  }
+  .rightform {
+    padding: 25px;
+  }
+  .careersec h2 {
+    font-size: 60px;
+  }
+  .careersec h3 {
+    font-size: 24px;
+  }
+  .getintuch h1 {
+    font-size: 26px;
+    font-weight: 700;
+  }
+  .getintuch h2 {
+    font-size: 18px;
+  }
+  footer {
+    text-align: left;
+  }
+  .ftright {
+    text-align: left;
+    padding: 15px;
+  }
+}
